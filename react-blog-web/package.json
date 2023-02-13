@@ -1,0 +1,25 @@
+{
+  "name": "react-blog-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "blog-web":"pnpm --filter blog-web dev",
+    "blog-manage":"pnpm --filter blog-manage dev"
+  },
+  "keywords": [],
+  "author": "maple",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@vitejs/plugin-react": "3.1.0",
+    "typescript": "4.9.3",
+    "vite": "4.1.0"
+  }
+}

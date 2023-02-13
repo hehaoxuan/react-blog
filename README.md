@@ -3,7 +3,7 @@
 
 # 目标：
 ## 客户端：
-架构：monorepo
+架构：monorepo+pnpm
 
 框架: react16.8
 
